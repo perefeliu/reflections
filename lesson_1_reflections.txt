@@ -1,0 +1,83 @@
+Pere's lesson Reflections
+
+How did viewing a diff between two versions of a file help you 
+see the bug that was introduced?
+
+It is clear that looking for differences manually or visually 
+word peer word is not something that a developper would do. 
+
+As it is shown in this lesson, there are simple utilities that
+helps comparing two files. Diff compares two files and gives 
+lines which are not equal between them. 
+
+I wonder how it works if some lines are added in the middle of 
+the document. I suppose that a simple utility will show all 
+the document as different from the other even if there is only 
+one line of difference. 
+
+
+How could having easy access to the entire history of a file 
+make you a more efficient programmer in the long term?
+
+I imagine that having a history of a file helps you restore 
+your code in a state that maybe was better than next versions.
+I suppose that there are other reasons. 
+
+It also can help programmers to find more easily first and 
+more reading-friendly than more debugged and long code. 
+
+
+What do you think are the pros and cons of manually choosing 
+when to create a commit, like you do in Git, vs having 
+versions automatically saved, like Google docs does?
+
+Manually choosing when to create a commit makes it possible to 
+track changes in a more lisible way. You can see why a change 
+has been done. 
+
+Having automatic versionning could lead to problems in 
+compiling, because an automatic save could happen exactly 
+while a programmer is writting.
+
+On the other hand, having automatic versionning is good if the 
+user do not commit as they should. 
+
+
+Why do you think some version control systems, like Git, allow 
+saving multiple files in one commit, while others, like Google 
+Docs, treat each file separately?
+
+In Git, which is oriented on code, there may be some files 
+related between each other. For example, images in a web page 
+or classes in a java code. They form a repository. It does not
+ make sense to have one and not the other.
+
+On the other hand, Google Docs is oriented in editing files 
+which won't be related between each other, like a document and 
+a presentation. They are better to be followed separately. 
+
+
+How can you use the commands git log and git diff to view the 
+history of files?
+
+git log gives a list of commits on the repository and 
+commments about what change has been done. 
+git diff accept as arguments commits IDs so as to compare the 
+changes done on the two versions. 
+
+
+How might using version control make you more confident to 
+make changes that could break something?
+
+I am more confident because I know that even if I mess-up my 
+code, I can always go back to an state where the code was
+stable or hadn't bugs. 
+
+
+
+Now that you have your workspace set up, what do you want to 
+try using Git for?
+
+If Git is used to track all changes in a project where there 
+are more than one correlated files, I guess Git must be used 
+to do this.
