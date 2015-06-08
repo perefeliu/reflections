@@ -1,0 +1,12 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+A folder with metadata is created. No track of any folder is done until you do something else. 
+
+
+How is the staging area different from the working directory 
+and the repository? What value do you think it offers?
+
+Staging area is the folder that are about to be commited but 
+they haven't been yet created. Working directory is any 
+directory, I guess. A repository is a fully functionning file 
+versionning. 
