@@ -26,3 +26,12 @@ Whenever you want to create a different version of your code,
 for example, a different color, or an experiment, you can 
 create a branch to do it. Even if you keep modifying the 
 original game, you will be able then to merge them. 
+
+
+How do the diagrams help you visualize the branch structure?
+
+Diagrams give you the possibility to understand which commits 
+are reachable by the actual head. Using checkout changes the 
+head for another branch, but may erase actual information of 
+another commit if it is not reachable. Diagrams helps you 
+control this. 
