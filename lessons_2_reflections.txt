@@ -35,3 +35,10 @@ are reachable by the actual head. Using checkout changes the
 head for another branch, but may erase actual information of 
 another commit if it is not reachable. Diagrams helps you 
 control this. 
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+this results in adding lines added into one branch into the master branch. 
+It is represented as the union of two branches because one can be deletted 
+as its informations or features exists already on master branch
