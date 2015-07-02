@@ -42,3 +42,14 @@ What is the result of merging two branches together? Why do we represent it in t
 this results in adding lines added into one branch into the master branch. 
 It is represented as the union of two branches because one can be deletted 
 as its informations or features exists already on master branch
+
+
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually ?
+
+Git automatic merging is a fast way to mixt different codes into one program knowing that there won't be merged 
+parts that have been changed by the two versions to be merged. 
+
+On the other hand, when there is a conflict, it is better to verify what changes should be done by the 
+programmer rather than git. It is more tedious, but you certainly will be more sure of not having bugs or be able to 
+compile. 
