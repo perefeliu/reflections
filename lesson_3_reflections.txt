@@ -17,3 +17,9 @@ repository belonging to someone else. Clone makes a copy of a
 repository. in this case you could make a copy of the 
 repository that you just forked. a branch is a sort of path 
 that is made of commits from everybody that is collaborating. 
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+having a copy of the last known state of the remote in your computer makes it more easy to track the project but also makes it easier to merge or resolve conflicts. 
+
