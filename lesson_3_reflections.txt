@@ -23,3 +23,6 @@ What is the benefit of having a copy of the last known state of the remote store
 
 having a copy of the last known state of the remote in your computer makes it more easy to track the project but also makes it easier to merge or resolve conflicts. 
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Without git or github, collaborating would be different. For instance, the project should be splitted into independent functions in order to avoid possible conflits. It would be easier to merge, but work would be separated unequaly. 
